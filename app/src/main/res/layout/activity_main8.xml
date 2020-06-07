@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.vigilance.Main8Activity"
+    android:background="@drawable/asj"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="        NEW ROUND ROUTE"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="357dp"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1">
+
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textView4"
+            android:background="@drawable/border"
+            android:text="ADD"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_weight="0.18" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_weight="0.24"
+
+            android:background="@drawable/border"
+            android:text="DONE"
+            android:textColor="#ffffff"
+            android:textSize="23dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

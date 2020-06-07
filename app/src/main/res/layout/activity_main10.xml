@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.vigilance.Main10Activity"
+    android:background="@drawable/asj"
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button8"
+
+   android:layout_marginTop="20dp"
+       android:layout_marginBottom="10dp"
+        android:text="Delete Round Route"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <ListView
+        android:id="@+id/listview3"
+        android:layout_width="match_parent"
+        android:layout_height="404dp"
+        android:listSelector="@android:color/transparent"
+       android:cacheColorHint="@android:color/transparent"
+        android:layout_above="@+id/button8"
+        android:layout_alignEnd="@+id/button8"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_weight="0.41" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="13dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="DONE"
+            android:textColor="#ffffff"
+            android:textSize="23dp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

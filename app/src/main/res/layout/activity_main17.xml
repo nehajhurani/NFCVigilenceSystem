@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asj"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.dell.vigilance.Main17Activity">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView1"
+      android:gravity="center"
+      android:layout_gravity="center"
+      android:layout_marginTop="14dp"
+      android:textSize="25sp"
+      android:layout_marginBottom="50dp"
+      android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_marginBottom="50dp"
+        android:padding="10dp"
+        android:text="EDIT LOCATION TAG"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>

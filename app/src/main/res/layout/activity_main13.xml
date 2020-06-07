@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:gravity="center"
+
+    tools:context="com.example.dell.vigilance.Main13Activity"
+    android:background="@drawable/asj2"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="0.0"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:text="ADD A NEW COMPARTMENT TAG "
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"
+        android:text="EDIT AN EXISTING TAG"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:text="DELETE COMPARTMENT TAG"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        android:textStyle="italic" />
+</LinearLayout>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.vigilance.Main9Activity"
+    android:background="@drawable/asj"
+    android:weightSum="1"
+    android:focusableInTouchMode="true"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="       ADD ROUND ROUTE"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText6"
+              android:hint="Round Route Name"
+            android:layout_marginTop="50dp"
+           android:layout_marginBottom="20dp"
+            android:inputType="textCapCharacters"
+        android:textColor="#ffffff"
+        android:textColorHint="#778899"
+        android:textStyle="normal|italic"/>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.07"
+    android:weightSum="1">
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:text="CREATE NEW ROUND ROUTE"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:textStyle="italic"
+        android:layout_weight="0.08" />
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.dell.vigilance.Main3Activity"
+    android:background="@drawable/asj4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="LOCATION TAGS "
+            android:textColor="#ffffff"
+            android:textSize="23dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_alignEnd="@+id/button4"
+            android:layout_alignStart="@+id/button4"
+            android:layout_below="@+id/button4"
+
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="ROUND ROUTES"
+            android:textColor="#ffffff"
+            android:textSize="23dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button5"
+            android:layout_alignStart="@+id/button5"
+            android:layout_below="@+id/button5"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="REPORTS"
+            android:textColor="#ffffff"
+            android:textSize="23dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="CHANGE PASSWORD "
+            android:textColor="#ffffff"
+            android:textSize="22dp"
+            android:textStyle="italic" />
+
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button6"
+            android:layout_alignStart="@+id/button6"
+            android:layout_below="@+id/button6"
+
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:text="LOGOUT"
+            android:textColor="#ffffff"
+            android:textSize="23dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</LinearLayout>

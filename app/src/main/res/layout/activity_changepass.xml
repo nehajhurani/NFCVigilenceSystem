@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent"
+    android:background="@drawable/asj"
+    android:orientation="vertical"
+    tools:context="com.example.dell.vigilance.changepass">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:text="         CHANGE PASSWORD"
+    android:layout_marginTop="20dp"
+    android:textAlignment="center"
+    android:textColor="#ffffff"
+    android:textSize="25dp"
+    android:layout_height="wrap_content" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="23dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#778899"
+        android:hint="Enter Current Password"
+        android:textStyle="italic"
+
+        android:inputType="textPassword|textCapCharacters|textCapWords|textCapSentences" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="23dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#778899"
+        android:hint="Enter New Password"
+        android:textStyle="italic"
+        android:inputType="textPassword|textCapCharacters|textCapSentences|textCapWords" />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="23dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#778899"
+        android:hint="Re-enter New Password"
+        android:textStyle="italic"
+        android:inputType="textPassword|textCapCharacters|textCapWords|textCapSentences" />
+
+    <Button
+        android:id="@+id/button25"
+        android:background="@drawable/border"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTINUE" />
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
